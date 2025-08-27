@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería La Fortaleza en Santiago Rodríguez | Herramientas y Materiales de Construcción</title>
+    <meta name="description" content="Ferretería La Fortaleza en Santiago Rodríguez. Todo en herramientas, plomería, electricidad, pinturas y materiales de construcción a los mejores precios de República Dominicana..">
+
+
+<!-- CODIGOS CSS -->
+
+    <style>
+        /* RESET BÁSICO */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; color: #333; }
+
+        /* CABECERA Y NAVEGACIÓN */
+        header {
+            background-color: #f8b500;
+            color: #fff;
+            padding: 20px 0;
+        }
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        header h1 { font-size: 28px; }
+
+        /* SECCIÓN PRINCIPAL (BANNER) */
+        .banner {
+            background: url('FerreteriaEDIF.JPG') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+            text-align: center;
+	    height: 450px;
+
+        }
+
+	.Ferreteriabanner {
+            background: url('FerreteriaBanner.png') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+            text-align: center;
+	    height: 250px;
+	    border-radius: 40px;
+  	    box-shadow: 0 8px 10px -4px rgba(0, 0, 0, 0.3);
+
+        }
+
+        .banner h2 { font-size: 48px; margin-bottom: 20px; }
+        .banner p { font-size: 20px; }
+
+        /* SECCIÓN DE PRODUCTOS */
+        .productos {
+            padding: 50px 10%;
+            background-color: #f4f4f4;
+        }
+        .productos h2 { text-align: center; margin-bottom: 40px; color: #f8b500; }
+        .grid-productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .producto {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .producto img { width: 100%; height: 150px; object-fit: cover; margin-bottom: 10px; }
+        .producto h3 { margin-bottom: 10px; color: #333; }
+        .producto p { margin-bottom: 15px; color: #666; }
+        .producto button {
+            background-color: #f8b500;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .producto button:hover { background-color: #d99700; }
+
+        /* SECCIÓN NOSOTROS */
+        .nosotros {
+            padding: 50px 10%;
+            text-align: center;
+        }
+        .nosotros h2 { color: #f8b500; margin-bottom: 20px; }
+        .nosotros p { max-width: 800px; margin: auto; color: #555; }
+
+        /* SECCIÓN CONTACTO */
+        .contacto {
+            padding: 50px 10%;
+            background-color: #f4f4f4;
+        }
+        .contacto h2 { text-align: center; margin-bottom: 30px; color: #f8b500; }
+        .contacto form {
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .contacto input, .contacto textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contacto button {
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f8b500;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .contacto button:hover { background-color: #d99700; }
+
+        /* PIE DE PÁGINA */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header nav { flex-direction: column; gap: 10px; }
+            .banner h2 { font-size: 36px; }
+        }
+    </style>
+</head>
+
+
+
+
+
+
+<!-- CODIGOS HTML -->
+<body>
+
+    <!-- CABECERA -->
+    <header>
+        <nav>
+            <h1>Ferretería La Fortaleza   TEL: 809-000-0000</h1>
+            <div>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+
+<br>
+
+<section class="Ferreteriabanner">
+        <h2>Todo para tu construcción y hogar</h2>
+        <p>Herramientas, materiales y más al mejor precio.</p>
+    </section>
+
+
+
+    <!-- PRODUCTOS -->
+    <section class="productos" id="productos">
+        <h2>Catalogo de Productos</h2>
+<hr>
+<br>
+        <div class="grid-productos">
+
+            <div class="producto">
+                <img src="Catalogo1.jpg" alt="Taladro">
+                <h3>Herramientas Manuales</h3>
+                <p>Variedad de herramientas manuales de calidad y para todo tipo de trabajo.</p>
+                <button>Ver</button>
+            </div>
+
+
+            <div class="producto">
+                <img src="Catalogo2.jpg" alt="Martillo">
+                <h3>Herramientas Electricas</h3>
+                <p>Ideal para construcción y bricolaje<br><br></p>
+                <button>Ver</button>
+            </div>
+
+
+            <div class="producto">
+                <img src="Catalogo3.jpg" alt="Tornillería">
+                <h3>Plomeria</h3>
+                <p>Variedad de tamaños para cualquier necesidad.</p>
+                <button>Ver</button>
+            </div>
+
+            
+        </div>
+
+<br>
+
+ 	<!-- PRODUCTOS Fila 2-->
+
+            <div class="grid-productos">
+	        <div class="producto">
+               	  <img src="Catalogo4.jpg" alt="Tornillería">
+              	  <h3>Materiales de Construccion</h3>
+               	 <p>Variedad de tamaños para cualquier necesidad.</p>
+               	 <button>Ver</button>
+            	</div>
+
+            <div class="producto">
+               	  <img src="Catalogo9.jpg" alt="Tornillería">
+              	  <h3>Tornillería y sujeción</h3>
+               	 <p>Variedad de tamaños para cualquier necesidad.</p>
+               	 <button>Ver</button>
+            	</div>
+
+            <div class="producto">
+               	  <img src="Catalogo8.jpg" alt="Tornillería">
+              	  <h3>Jardinería</h3>
+               	 <p>Variedad de tamaños para cualquier necesidad.</p>
+               	 <button>Ver</button>
+            	</div>
+	    </div>
+<br>
+
+ 	<!-- PRODUCTOS Fila 3-->
+
+            <div class="grid-productos">
+	        <div class="producto">
+               	  <img src="Catalogo7.jpg" alt="Tornillería">
+              	  <h3>Ferretería de obra y hogar</h3>
+               	 <p>Variedad de tamaños para cualquier necesidad.</p>
+               	 <button>Ver</button>
+            	</div>
+
+            <div class="producto">
+               	  <img src="Catalogo5.jpg" alt="Tornillería">
+              	  <h3>Pinturas</h3>
+               	 <p>Variedad de tamaños para cualquier necesidad.</p>
+               	 <button>Ver</button>
+            	</div>
+
+            <div class="producto">
+               	  <img src="Catalogo6.jpg" alt="Tornillería">
+              	  <h3>Electricidad</h3>
+               	 <p>Variedad de tamaños para cualquier necesidad.</p>
+               	 <button>Ver</button>
+            	</div>
+	    </div>
+
+    </section>
+
+
+
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Ferretería La Fortaleza lleva más de 15 años proveyendo herramientas y materiales de construcción de la mejor calidad. Nuestra misión es ayudar a nuestros clientes a completar sus proyectos con productos confiables y al mejor precio.</p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        &copy; 2025 Ferretería La Fortaleza. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
